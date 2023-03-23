@@ -8,8 +8,9 @@ for i in range(30):
 
 for i in str:
     a = ord(i)-97
-    b = chr(a+97)
-    print(a, b)
+    # b = chr(a+97)
     lst[a] += 1
 
-print(lst)
+
+for j in lst:
+    print(j)
