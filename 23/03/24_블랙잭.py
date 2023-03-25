@@ -13,4 +13,5 @@ for i in range(n):
             if sumV <= m and maxV < sumV:
                 maxV = arr[i] + arr[j] + arr[k]
 
-print(maxV)
+print(f'{maxV}')
+
